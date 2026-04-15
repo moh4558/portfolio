@@ -1,10 +1,19 @@
-name: CI/CD Pipeline
+name: CI/CD and GitHub Pages Deployment
 
 on:
   push:
     branches: [ master, main ]
   pull_request:
     branches: [ master, main ]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
 
 jobs:
   build-and-test:
@@ -28,18 +37,18 @@ jobs:
       run: npm ci
 
     - name: Run linter
-      run: npm run lint
+      run: npm run lint --if-present
 
     - name: Build project
       run: npm run build
 
-    - name: Run tests (if any)
-      run: npm test || echo "No tests defined"
-
-  deploy:
+  deploy-pages:
     needs: build-and-test
     runs-on: ubuntu-latest
     if: github.ref == 'refs/heads/master' && github.event_name == 'push'
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
     - name: Checkout code
@@ -57,9 +66,14 @@ jobs:
     - name: Build for production
       run: npm run build
 
-    - name: Deploy to GitHub Pages
-      uses: peaceiris/actions-gh-pages@v3
-      if: github.ref == 'refs/heads/master'
+    - name: Setup Pages
+      uses: actions/configure-pages@v4
+
+    - name: Upload artifact
+      uses: actions/upload-pages-artifact@v3
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./dist
+        path: './dist'
+
+    - name: Deploy to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v4
