@@ -1,5 +1,5 @@
 
-# 🚀 Mohamad Doli - Portfolio Website
+# Mohamad Doli - Portfolio Website
 
 <div align="center">
   <img src="https://img.shields.io/badge/React-18.3.1-61DAFB?style=for-the-badge&logo=react" alt="React" />
@@ -10,13 +10,13 @@
 </div>
 
 <div align="center">
-  <h3>✨ Crafting Premium Digital Experiences ✨</h3>
+  <h3>Crafting Premium Digital Experiences</h3>
   <p>A modern, responsive portfolio website showcasing frontend development skills with smooth animations and professional design.</p>
 </div>
 
 ---
 
-## 🌟 **Live Demo**
+## Live Demo
 
 <div align="center">
   <a href="https://mohamad-doli-portfolio.vercel.app" target="_blank">
@@ -29,7 +29,7 @@
 
 ---
 
-## 📋 **Table of Contents**
+## Table of Contents
 
 - [✨ Features](#-features)
 - [🛠️ Tech Stack](#️-tech-stack)
@@ -44,23 +44,23 @@
 
 ---
 
-## ✨ **Features**
+## Features
 
-### 🎯 **Core Features**
+### Core Features
 - **Responsive Design** - Optimized for all devices (mobile, tablet, desktop)
 - **Smooth Animations** - GPU-accelerated animations using Framer Motion
 - **Dark Theme** - Modern dark theme with gold accent colors
 - **Performance Optimized** - Fast loading with optimized assets
 - **SEO Friendly** - Proper meta tags and semantic HTML
 
-### 🎨 **UI Components**
+### UI Components
 - **Hero Section** - Full-screen hero with parallax effects and wave overlay
 - **Projects Showcase** - Interactive project cards with hover effects
 - **Skills Section** - Animated marquee with technical skills
 - **Contact Form** - Professional contact information display
 - **Audio Controls** - Background music player with volume control
 
-### 🚀 **Technical Features**
+### Technical Features
 - **TypeScript** - Type-safe development
 - **Component Architecture** - Modular, reusable components
 - **Modern Build Tools** - Vite for fast development and building
@@ -69,7 +69,7 @@
 
 ---
 
-## 🛠️ **Tech Stack**
+## Tech Stack
 
 ### **Frontend Framework**
 - ![React](https://img.shields.io/badge/React-18.3.1-61DAFB?style=flat&logo=react&logoColor=white)
@@ -90,13 +90,13 @@
 
 ---
 
-## 🚀 **Quick Start**
+## Quick Start
 
-### **Prerequisites**
+### Prerequisites
 - Node.js (v18 or higher)
 - npm or yarn package manager
 
-### **Installation**
+### Installation
 
 1. **Clone the repository**
    ```bash
@@ -119,19 +119,19 @@
    http://localhost:5174
    ```
 
-### **Build for Production**
+### Build for Production
 ```bash
 npm run build
 ```
 
-### **Preview Production Build**
+### Preview Production Build
 ```bash
 npm run preview
 ```
 
 ---
 
-## 📁 **Project Structure**
+## Project Structure
 
 ```
 portfolio/
@@ -166,20 +166,20 @@ portfolio/
 
 ---
 
-## 🎨 **Design System**
+## Design System
 
-### **Color Palette**
+### Color Palette
 - **Primary**: `#d4af37` (Gold)
 - **Background**: `#0d1525` (Dark Navy)
 - **Text**: `#eaecf0` (Light Gray)
 - **Accent**: `#7a8294` (Medium Gray)
 
-### **Typography**
+### Typography
 - **Primary Font**: 'Sora' (Headings)
 - **Secondary Font**: 'Inter' (Body text)
 - **Monospace**: System default
 
-### **Animation Principles**
+### Animation Principles
 - **Easing**: Custom cubic-bezier curves
 - **Duration**: 0.6s - 1.0s for major transitions
 - **GPU Acceleration**: Transform and opacity properties
@@ -187,9 +187,9 @@ portfolio/
 
 ---
 
-## 🔧 **Development**
+## Development
 
-### **Available Scripts**
+### Available Scripts
 
 ```bash
 npm run dev          # Start development server
@@ -198,12 +198,12 @@ npm run preview      # Preview production build
 npm run lint         # Run ESLint
 ```
 
-### **Code Quality**
+### Code Quality
 - **ESLint** - Code linting and formatting
 - **TypeScript** - Type checking
 - **Prettier** - Code formatting (via ESLint)
 
-### **Performance**
+### Performance
 - **Vite** - Fast development and optimized builds
 - **Code Splitting** - Automatic chunk splitting
 - **Asset Optimization** - Image and font optimization
@@ -211,26 +211,26 @@ npm run lint         # Run ESLint
 
 ---
 
-## 📦 **Build & Deployment**
+## Build & Deployment
 
-### **Deploy to Vercel**
+### Deploy to Vercel
 1. Connect your GitHub repository to Vercel
 2. Vercel will automatically detect Vite configuration
 3. Deploy with zero configuration
 
-### **Deploy to Netlify**
+### Deploy to Netlify
 1. Build the project: `npm run build`
 2. Upload the `dist` folder to Netlify
 3. Configure build settings if needed
 
-### **Deploy to GitHub Pages**
+### Deploy to GitHub Pages
 1. Enable GitHub Pages in repository settings
 2. Set source to `GitHub Actions`
 3. Use the provided workflow or create custom deployment
 
 ---
 
-## 🤝 **Contributing**
+## Contributing
 
 Contributions are welcome! Please follow these steps:
 
@@ -249,7 +249,7 @@ Contributions are welcome! Please follow these steps:
    ```
 5. **Open a Pull Request**
 
-### **Development Guidelines**
+### Development Guidelines
 - Follow TypeScript best practices
 - Use semantic commit messages
 - Test on multiple devices and browsers
@@ -258,13 +258,13 @@ Contributions are welcome! Please follow these steps:
 
 ---
 
-## 📄 **License**
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 📞 **Contact**
+## Contact
 
 **Mohamad Doli**
 
@@ -276,7 +276,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 <div align="center">
-  <p>⭐ Star this repository if you found it helpful!</p>
-  <p>Made with ❤️ by Mohamad Doli</p>
+  <p>Star this repository if you found it helpful!</p>
+  <p>Made with passion by Mohamad Doli</p>
 </div>
   
